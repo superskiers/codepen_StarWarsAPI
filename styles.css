@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+#navbar {
+  text-align: center;
+}
+#logo-img {
+  height: 200px;
+  max-height: 100vh;
+  border-radius: 10px;
+}
+.movies-list{
+    display: block;
+    list-style-type: none;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+  }
+
+  .movie{
+    display: inline-block;
+    height: 95%;
+    padding: 0 20px;
+  }
+
+  .movie:hover{
+    cursor: pointer;
+  }
+
+
+#title {
+  margin: 0 auto 40px auto;
+}
+#button {
+  margin: 20px;
+  padding: 10px 30px;
+  border-radius: 8px;
+  font-weight: 600;
+  background-color: white;
+}
